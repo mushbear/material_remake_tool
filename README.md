@@ -4,10 +4,17 @@
 
 ## 功能特性
 
+### 核心模块
 - ✅ **模块二**：场景信息提取 - 从JSON分析文件中提取场景信息
 - ✅ **模块三**：场景组合方案生成 - 根据标签组合生成多个素材重组方案
 - ✅ **模块四**：素材下载与组合 - 下载素材、提取场景、去除BGM、拼接新素材
 - ⏸️ **模块一**：素材ID智能选择（待实现）
+
+### 新增工具 (2026-03-17)
+- ✅ **视频数据分析工具** - 解析JSON数据生成数据表（基本信息、片段、角色）
+- ✅ **叙事方案测试工具** - 测试素材与叙事方案的匹配度
+- ✅ **完整测试工具** - 综合测试所有分析功能
+- ✅ **视频剪辑工具** - 按叙事方案自动剪辑视频（去除原字幕+添加英文字幕）
 
 ## 项目结构
 
@@ -161,6 +168,72 @@ python scripts/module4_material_composer.py \
 python scripts/module4_material_composer.py \
   --output-dir ./my_output
 ```
+
+## 新增工具使用指南 (2026-03-17)
+
+### 视频数据分析工具
+
+**功能**: 解析JSON数据生成结构化数据表
+
+```bash
+python scripts/parse_video_analysis.py
+```
+
+**输出**:
+- `video_basic_info.csv` - 视频基本信息
+- `video_segments.csv` - 片段详细信息
+- `video_characters.csv` - 角色信息表
+
+### 叙事方案测试工具
+
+**功能**: 测试素材与叙事方案的匹配度
+
+```bash
+python scripts/test_narrative_schemes.py
+```
+
+**输出**:
+- `narrative_scheme_summary.csv` - 方案匹配汇总
+- `narrative_segments_detailed.csv` - 片段详情
+- `narrative_test_detailed.json` - 完整测试结果
+
+### 完整测试工具
+
+**功能**: 综合测试所有分析功能
+
+```bash
+python scripts/complete_narrative_test.py
+```
+
+### 视频剪辑工具（带字幕处理）
+
+**功能**: 按叙事方案自动剪辑视频并处理字幕
+
+```bash
+python scripts/cut_videos_blur_subtitles.py
+```
+
+**功能特性**:
+- ✅ 按叙事方案匹配视频片段
+- ✅ 去除原视频字幕（黑色遮盖）
+- ✅ 生成英文字幕
+- ✅ 每个素材最多使用一次
+
+**输出**:
+- `output_videos_blur/方案*_最终版_带英文字幕.mp4` - 最终视频
+- `output_videos_blur/方案*_英文字幕.srt` - 字幕文件
+- `output_videos_blur/剪辑计划.csv` - 剪辑计划
+
+**技术方案**:
+- 字幕去除: FFmpeg drawbox滤镜遮盖底部80像素
+- 字幕添加: 软字幕嵌入（mov_text格式）
+- 视频合并: FFmpeg concat协议
+
+**测试结果**:
+- 测试素材: 7个
+- 成功分析: 6个
+- 方案1匹配: 4/4片段 ✅
+- 最终视频: 4分53秒
 
 ## 数据格式
 
