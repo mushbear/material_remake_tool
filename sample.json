@@ -1,0 +1,419 @@
+{
+  "material_id": "1337589",
+  "video_url": "https://hwmat-enc.ikyuedu.com/encode/onl/market/material/video/20260311/oss_web/1773199618443_wily2y.mp4",
+  "analysis_time": "2026-03-16T14:22:12.566525",
+  "model": "qwen3.5-plus",
+  "elapsed_time": 129.71129703521729,
+  "success": true,
+  "result": {
+    "segments": [
+      {
+        "segment_id": 1,
+        "start_time": 0,
+        "end_time": 23,
+        "duration": 23,
+        "main_location": "室外/雪地湖边",
+        "plot_summary": "视频开场，一名 overweight 的男子 Arthur 因被嘲笑而跳入冰湖，却意外发现水下宝藏，一夜暴富成为世界首富，并开始从事慈善工作。",
+        "segment_transition": "无（视频开头）",
+        "narrative_function_tag": "F01-强开局/吸睛钩子",
+        "emotion_trope_tags": [
+          "E09-猎奇/反常识"
+        ],
+        "characters": [
+          {
+            "character_id": "Arthur",
+            "identifying_features": "男性，起初 overweight 穿泳裤，后变瘦穿西装",
+            "gender": "男",
+            "age_group": "25-34",
+            "role_type": "主角",
+            "screen_time": "主要"
+          }
+        ],
+        "has_logo": false,
+        "logo_position": "无"
+      },
+      {
+        "segment_id": 2,
+        "start_time": 23,
+        "end_time": 200,
+        "duration": 177,
+        "main_location": "室内/私人飞机",
+        "plot_summary": "Arthur 在飞机上遇到 Throne Tech 的 CEO Anya。Anya 提出假结婚请求，被 Arthur 拒绝。Arthur 修改了 Anya 的投资计划书，将金额从 1 亿改为 1000 亿，令 Anya 震惊。",
+        "segment_transition": "场景跳转（从雪地转到飞机）",
+        "narrative_function_tag": "F02-背景速递/设定交代",
+        "emotion_trope_tags": [
+          "E07-高甜/宠溺",
+          "E05-震惊/仰望"
+        ],
+        "characters": [
+          {
+            "character_id": "Arthur",
+            "identifying_features": "男性，穿米色外套，戴蓝色围巾",
+            "gender": "男",
+            "age_group": "25-34",
+            "role_type": "主角",
+            "screen_time": "主要"
+          },
+          {
+            "character_id": "Anya",
+            "identifying_features": "女性，金发，穿黑色礼服和米色外套",
+            "gender": "女",
+            "age_group": "25-34",
+            "role_type": "主角",
+            "screen_time": "主要"
+          }
+        ],
+        "has_logo": true,
+        "logo_position": "屏幕下方水印"
+      },
+      {
+        "segment_id": 3,
+        "start_time": 200,
+        "end_time": 262,
+        "duration": 62,
+        "main_location": "室内/机场",
+        "plot_summary": "闪回 5 年前，Arthur 在机场向女友 Serena 求婚，Serena 接受但要求等他回来再结婚。Arthur 准备了昂贵的项链作为礼物。",
+        "segment_transition": "时间跳跃（闪回）",
+        "narrative_function_tag": "F02-背景速递/设定交代",
+        "emotion_trope_tags": [
+          "E08-追妻火葬场/虐心"
+        ],
+        "characters": [
+          {
+            "character_id": "Arthur",
+            "identifying_features": "男性，穿黑色大衣",
+            "gender": "男",
+            "age_group": "25-34",
+            "role_type": "主角",
+            "screen_time": "主要"
+          },
+          {
+            "character_id": "Serena",
+            "identifying_features": "女性，金发，穿蓝绿色连体裤",
+            "gender": "女",
+            "age_group": "25-34",
+            "role_type": "反派",
+            "screen_time": "主要"
+          }
+        ],
+        "has_logo": false,
+        "logo_position": "无"
+      },
+      {
+        "segment_id": 4,
+        "start_time": 262,
+        "end_time": 422,
+        "duration": 160,
+        "main_location": "室内/宴会厅",
+        "plot_summary": "Serena 在 Throne Tech 的庆功宴上被众人簇拥，母亲 Carol 为她感到骄傲。Arthur 手捧鲜花出现，Serena 和 Carol 对他冷嘲热讽，认为他配不上现在的 Serena。",
+        "segment_transition": "场景跳转（回到现在/宴会厅）",
+        "narrative_function_tag": "F03-极限施压/受辱",
+        "emotion_trope_tags": [
+          "E03-势利/狗眼看人低",
+          "E01-极致憋屈/气愤"
+        ],
+        "characters": [
+          {
+            "character_id": "Arthur",
+            "identifying_features": "男性，穿黑色西装，手持花束",
+            "gender": "男",
+            "age_group": "25-34",
+            "role_type": "主角",
+            "screen_time": "主要"
+          },
+          {
+            "character_id": "Serena",
+            "identifying_features": "女性，金发，穿深绿色吊带长裙",
+            "gender": "女",
+            "age_group": "25-34",
+            "role_type": "反派",
+            "screen_time": "主要"
+          },
+          {
+            "character_id": "Carol",
+            "identifying_features": "女性，中年，穿灰色连衣裙和黑色披肩",
+            "gender": "女",
+            "age_group": "50 以上",
+            "role_type": "反派",
+            "screen_time": "次要"
+          }
+        ],
+        "has_logo": true,
+        "logo_position": "屏幕下方水印"
+      },
+      {
+        "segment_id": 5,
+        "start_time": 422,
+        "end_time": 495,
+        "duration": 73,
+        "main_location": "室内/轿车",
+        "plot_summary": "Anya 在车里得知 Arthur 批准了 1000 亿的投资，意识到他是 Titan Group 的幕后主席，决定要找到他并嫁给他。",
+        "segment_transition": "场景切换（车内）",
+        "narrative_function_tag": "F04-金手指觉醒/身份曝光",
+        "emotion_trope_tags": [
+          "E05-震惊/仰望"
+        ],
+        "characters": [
+          {
+            "character_id": "Anya",
+            "identifying_features": "女性，金发，穿黑色礼服和白色皮草",
+            "gender": "女",
+            "age_group": "25-34",
+            "role_type": "主角",
+            "screen_time": "主要"
+          },
+          {
+            "character_id": "Assistant",
+            "identifying_features": "男性，卷发，穿西装",
+            "gender": "男",
+            "age_group": "25-34",
+            "role_type": "配角",
+            "screen_time": "次要"
+          }
+        ],
+        "has_logo": true,
+        "logo_position": "屏幕下方水印"
+      },
+      {
+        "segment_id": 6,
+        "start_time": 495,
+        "end_time": 785,
+        "duration": 290,
+        "main_location": "室内/宴会厅",
+        "plot_summary": "Serena 的新男友 Victor 出现，与 Carol 一起羞辱 Arthur。他们提出给 Arthur 钱让他离开，Arthur 拒绝。Victor 威胁要叫保安。",
+        "segment_transition": "场景切回宴会厅",
+        "narrative_function_tag": "F03-极限施压/受辱",
+        "emotion_trope_tags": [
+          "E01-极致憋屈/气愤",
+          "E03-势利/狗眼看人低"
+        ],
+        "characters": [
+          {
+            "character_id": "Arthur",
+            "identifying_features": "男性，穿黑色西装",
+            "gender": "男",
+            "age_group": "25-34",
+            "role_type": "主角",
+            "screen_time": "主要"
+          },
+          {
+            "character_id": "Serena",
+            "identifying_features": "女性，穿深绿色长裙",
+            "gender": "女",
+            "age_group": "25-34",
+            "role_type": "反派",
+            "screen_time": "主要"
+          },
+          {
+            "character_id": "Victor",
+            "identifying_features": "男性，穿灰色双排扣西装",
+            "gender": "男",
+            "age_group": "25-34",
+            "role_type": "反派",
+            "screen_time": "主要"
+          },
+          {
+            "character_id": "Carol",
+            "identifying_features": "女性，中年",
+            "gender": "女",
+            "age_group": "50 以上",
+            "role_type": "反派",
+            "screen_time": "次要"
+          }
+        ],
+        "has_logo": true,
+        "logo_position": "屏幕下方水印"
+      },
+      {
+        "segment_id": 7,
+        "start_time": 785,
+        "end_time": 1305,
+        "duration": 520,
+        "main_location": "室内/宴会厅",
+        "plot_summary": "冲突升级，Arthur 揭露 Serena 的项链是假货（或廉价品），而自己送的是拍卖价 200 万的真品。Victor 踩碎了项链。保安 Thomas 试图驱逐 Arthur。",
+        "segment_transition": "情节延续",
+        "narrative_function_tag": "F05-高潮打脸/绝地反击",
+        "emotion_trope_tags": [
+          "E04-极致爽感/解气",
+          "E01-极致憋屈/气愤"
+        ],
+        "characters": [
+          {
+            "character_id": "Arthur",
+            "identifying_features": "男性，脸上有伤痕",
+            "gender": "男",
+            "age_group": "25-34",
+            "role_type": "主角",
+            "screen_time": "主要"
+          },
+          {
+            "character_id": "Serena",
+            "identifying_features": "女性，表情震惊",
+            "gender": "女",
+            "age_group": "25-34",
+            "role_type": "反派",
+            "screen_time": "主要"
+          },
+          {
+            "character_id": "Victor",
+            "identifying_features": "男性，傲慢",
+            "gender": "男",
+            "age_group": "25-34",
+            "role_type": "反派",
+            "screen_time": "主要"
+          },
+          {
+            "character_id": "Thomas",
+            "identifying_features": "男性，光头，保安制服",
+            "gender": "男",
+            "age_group": "35-50",
+            "role_type": "配角",
+            "screen_time": "次要"
+          }
+        ],
+        "has_logo": true,
+        "logo_position": "屏幕下方水印"
+      },
+      {
+        "segment_id": 8,
+        "start_time": 1305,
+        "end_time": 1615,
+        "duration": 310,
+        "main_location": "室内/宴会厅",
+        "plot_summary": "Arthur 声称自己有权待在这里，连 Anya Throne 都不能赶他走。Serena 和 Victor 嘲笑他不自量力。Serena 试图用支票打发 Arthur，被 Arthur 烧毁。",
+        "segment_transition": "情节延续",
+        "narrative_function_tag": "F05-高潮打脸/绝地反击",
+        "emotion_trope_tags": [
+          "E04-极致爽感/解气",
+          "E10-千钧一发/紧迫"
+        ],
+        "characters": [
+          {
+            "character_id": "Arthur",
+            "identifying_features": "男性，自信",
+            "gender": "男",
+            "age_group": "25-34",
+            "role_type": "主角",
+            "screen_time": "主要"
+          },
+          {
+            "character_id": "Serena",
+            "identifying_features": "女性，愤怒",
+            "gender": "女",
+            "age_group": "25-34",
+            "role_type": "反派",
+            "screen_time": "主要"
+          },
+          {
+            "character_id": "Victor",
+            "identifying_features": "男性，轻蔑",
+            "gender": "男",
+            "age_group": "25-34",
+            "role_type": "反派",
+            "screen_time": "主要"
+          }
+        ],
+        "has_logo": true,
+        "logo_position": "屏幕下方水印"
+      },
+      {
+        "segment_id": 9,
+        "start_time": 1615,
+        "end_time": 2030,
+        "duration": 415,
+        "main_location": "室内/宴会厅",
+        "plot_summary": "Anya 赶到宴会厅，众人以为她是来支持 Serena 的。Anya 径直走向 Arthur，当众宣布他是她的丈夫，全场震惊。视频以众人震惊的表情和 DramaBox 广告结束。",
+        "segment_transition": "高潮结局",
+        "narrative_function_tag": "F06-悬念结尾/付费卡点",
+        "emotion_trope_tags": [
+          "E04-极致爽感/解气",
+          "E05-震惊/仰望"
+        ],
+        "characters": [
+          {
+            "character_id": "Anya",
+            "identifying_features": "女性，气场强大",
+            "gender": "女",
+            "age_group": "25-34",
+            "role_type": "主角",
+            "screen_time": "主要"
+          },
+          {
+            "character_id": "Arthur",
+            "identifying_features": "男性，微笑",
+            "gender": "男",
+            "age_group": "25-34",
+            "role_type": "主角",
+            "screen_time": "主要"
+          },
+          {
+            "character_id": "Serena",
+            "identifying_features": "女性，震惊",
+            "gender": "女",
+            "age_group": "25-34",
+            "role_type": "反派",
+            "screen_time": "次要"
+          },
+          {
+            "character_id": "Victor",
+            "identifying_features": "男性，震惊",
+            "gender": "男",
+            "age_group": "25-34",
+            "role_type": "反派",
+            "screen_time": "次要"
+          },
+          {
+            "character_id": "Carol",
+            "identifying_features": "女性，震惊",
+            "gender": "女",
+            "age_group": "50 以上",
+            "role_type": "反派",
+            "screen_time": "次要"
+          }
+        ],
+        "has_logo": true,
+        "logo_position": "屏幕下方及结尾全屏"
+      }
+    ],
+    "segment_summary": {
+      "total_segments": 9,
+      "segment_structure": "视频采用线性叙事结合闪回结构。开篇以夸张的暴富故事吸引眼球，随后转入主线剧情：男主在飞机上展现实力，接着在女友的庆功宴上遭受极致羞辱，最后通过真实身份曝光实现绝地反击。情节紧凑，情绪从憋屈到爽感层层递进。"
+    },
+    "basic_info": {
+      "aspect_ratio": "9:16",
+      "video_style": "真人拍摄",
+      "color_tone": "明亮",
+      "scene_types": [
+        "室内",
+        "室外"
+      ],
+      "total_duration": 2030
+    },
+    "drama_type": {
+      "drama_channel": "女频",
+      "drama_genre": "逆袭/隐藏身份/神豪",
+      "drama_theme": "打脸/身份反转/后悔流",
+      "drama_mainactor_male": "隐藏富豪/慈善家",
+      "drama_mainactor_female": "公司 CEO",
+      "content_scale": {
+        "sexual": "无",
+        "nudity": "低",
+        "violence": "低",
+        "prohibited_items": "无",
+        "children_related": "无"
+      }
+    },
+    "app_content": {
+      "has_logo": true,
+      "logo_position": "视频下方水印及结尾全屏广告",
+      "app_name": "DramaBox",
+      "drama_name": "WATCH OUT! I CALL THE FINAL SHOTS"
+    },
+    "target_audience": {
+      "age_range": "25-34",
+      "gender_target": "女性",
+      "consumption_level": "中"
+    }
+  },
+  "raw_response": null
+}

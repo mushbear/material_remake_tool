@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project specific
+data/temp/
+output/*.mp4
+output/*.avi
+output/*.mov
+output/*.mkv
+temp/
+*.tmp
+*.log
+
+# Large files (but keep exceptions)
+*.csv
+!material_list.csv
+*.json
+!sample.json
+!config.json
+!config/*.json
+
+# Keep example configs but ignore user configs
+config/user_*.json
