@@ -1,0 +1,13 @@
+{
+  "narrative_function_tags": [
+    "F01-强开局/吸睛钩子",
+    "F02-背景速递/设定交代",
+    "F03-极限施压/受辱"
+  ],
+  "num_schemes": 10,
+  "test_material_ids": ["1337589", "1326824", "1326825"],
+  "json_source_dir": "./",
+  "output_dir": "./output",
+  "temp_dir": "./data/temp",
+  "remove_bgm": true
+}
