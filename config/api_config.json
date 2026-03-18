@@ -1,0 +1,73 @@
+{
+  "api_providers": {
+    "volcano": {
+      "enabled": true,
+      "name": "火山引擎（字节跳动）",
+      "ak": "YOUR_ACCESS_KEY_HERE",
+      "sk": "YOUR_SECRET_KEY_HERE",
+      "region": "cn-north-1",
+      "endpoints": {
+        "video_understanding": "https://ark.cn-beijing.volces.com/api/v3",
+        "speech_recognition": "https://openspeech.bytedance.com/api/v2",
+        "translation": "https://translate.volcengineapi.com"
+      },
+      "models": {
+        "video_analysis": "qwen-vl-max-latest",
+        "speech_recognition": "whisper-1",
+        "translation": "qwen-plus"
+      },
+      "pricing": {
+        "video_understanding": "0.003元/分钟",
+        "speech_recognition": "按量计费",
+        "translation": "0.002元/千字符"
+      }
+    },
+    "openai": {
+      "enabled": false,
+      "name": "OpenAI",
+      "api_key": "YOUR_OPENAI_API_KEY_HERE",
+      "organization": "YOUR_ORG_ID_HERE",
+      "base_url": "https://api.openai.com/v1",
+      "models": {
+        "whisper": "whisper-1",
+        "gpt4o": "gpt-4o",
+        "gpt4o_mini": "gpt-4o-mini"
+      },
+      "pricing": {
+        "whisper": "$0.006/分钟",
+        "gpt4o": "$0.005/1K tokens",
+        "gpt4o_mini": "$0.00015/1K tokens"
+      }
+    },
+    "550wai": {
+      "enabled": false,
+      "name": "550WAI",
+      "api_key": "YOUR_550WAI_API_KEY_HERE",
+      "base_url": "https://api.550wai.com",
+      "endpoints": {
+        "subtitle_remove": "/api/v1/video/subtitle/remove"
+      },
+      "pricing": {
+        "subtitle_remove": "按次计费",
+        "processing_time": "约30秒/视频"
+      }
+    }
+  },
+  "default_provider": "volcano",
+  "fallback_order": ["volcano", "openai", "550wai"],
+  "rate_limits": {
+    "volcano": {
+      "requests_per_minute": 100,
+      "concurrent_requests": 5
+    },
+    "openai": {
+      "requests_per_minute": 60,
+      "concurrent_requests": 3
+    }
+  },
+  "retry_config": {
+    "max_retries": 3,
+    "retry_delay": 2,
+    "backoff_factor": 2
+  }
+}
