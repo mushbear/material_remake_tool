@@ -55,3 +55,10 @@ temp/
 
 # Keep example configs but ignore user configs
 config/user_*.json
+
+# Video output directories (20260318 test)
+20260318v1/
+20260318v2/
+20260318v3/
+*/输出视频/
+output_videos/
