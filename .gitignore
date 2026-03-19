@@ -62,3 +62,11 @@ config/user_*.json
 20260318v3/
 */输出视频/
 output_videos/
+
+# Allow 20260319v2 test results
+!20260319v2/*.json
+!20260319v2/*.csv
+!20260319v2/*.md
+20260319v2/temp/
+20260319v2/material_videos/
+20260319v2/*.mp4

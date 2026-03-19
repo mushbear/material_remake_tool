@@ -1,0 +1,127 @@
+{
+  "version": "v2-final",
+  "generate_time": "2026-03-19T23:20:01.460197",
+  "schemes": [
+    {
+      "scheme_id": 1,
+      "scheme_name": "方案1: F01 → F04 → F02 → F06",
+      "is_valid": true,
+      "invalid_reason": "",
+      "total_duration": 1056,
+      "scenes": [
+        {
+          "tag": "F01",
+          "material_id": "1313852",
+          "duration": 13
+        },
+        {
+          "tag": "F04",
+          "material_id": "1313387",
+          "duration": 56
+        },
+        {
+          "tag": "F02",
+          "material_id": "1317354",
+          "duration": 89
+        },
+        {
+          "tag": "F06",
+          "material_id": "1317450",
+          "duration": 898
+        }
+      ]
+    },
+    {
+      "scheme_id": 2,
+      "scheme_name": "方案2: F02 → F03 → F04 → F06",
+      "is_valid": true,
+      "invalid_reason": "",
+      "total_duration": 1314,
+      "scenes": [
+        {
+          "tag": "F02",
+          "material_id": "1317357",
+          "duration": 157
+        },
+        {
+          "tag": "F03",
+          "material_id": "1313713",
+          "duration": 203
+        },
+        {
+          "tag": "F04",
+          "material_id": "1315318",
+          "duration": 56
+        },
+        {
+          "tag": "F06",
+          "material_id": "1317450",
+          "duration": 898
+        }
+      ]
+    },
+    {
+      "scheme_id": 3,
+      "scheme_name": "方案3: F01 → F03 → F05 → F06",
+      "is_valid": true,
+      "invalid_reason": "",
+      "total_duration": 1242,
+      "scenes": [
+        {
+          "tag": "F01",
+          "material_id": "1315283",
+          "duration": 26
+        },
+        {
+          "tag": "F03",
+          "material_id": "1317354",
+          "duration": 290
+        },
+        {
+          "tag": "F05",
+          "material_id": "1315881",
+          "duration": 28
+        },
+        {
+          "tag": "F06",
+          "material_id": "1317450",
+          "duration": 898
+        }
+      ]
+    },
+    {
+      "scheme_id": 4,
+      "scheme_name": "方案4: F02 → F03 → F04 → F05 → F06",
+      "is_valid": true,
+      "invalid_reason": "",
+      "total_duration": 1611,
+      "scenes": [
+        {
+          "tag": "F02",
+          "material_id": "1314725",
+          "duration": 226
+        },
+        {
+          "tag": "F03",
+          "material_id": "1317752",
+          "duration": 177
+        },
+        {
+          "tag": "F04",
+          "material_id": "1315880",
+          "duration": 55
+        },
+        {
+          "tag": "F05",
+          "material_id": "1317752",
+          "duration": 255
+        },
+        {
+          "tag": "F06",
+          "material_id": "1317450",
+          "duration": 898
+        }
+      ]
+    }
+  ]
+}
